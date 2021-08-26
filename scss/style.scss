@@ -2,3 +2,56 @@
 @import 'vars.scss';
 @import url('fonts.css');
 @import url('reset.css');
+
+body {
+    font-family: 'Poppins';
+}
+
+.container {
+    width: 1110px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 25px;
+    position: relative;
+    &::before {
+        content: url('../img/logo-icon.svg');
+        position: absolute;
+        top: -10px;
+        left: -35px;
+        
+    }
+}
+.header {
+    &__top {
+        padding: 45px 0;
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    &__nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            li {
+                margin-left: 42px;
+                a {
+                    transition: color 0.5s;
+                    &:hover {
+                        color: #F78434;
+                        transition: color, border-bottom 0.15s 0.1s;
+                        border-bottom: 3px #F78434 solid ;
+                    }
+                }
+                &:nth-child(1) {
+                    margin-left:0;
+                }
+            }
+        }
+    }
+}
