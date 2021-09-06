@@ -6,6 +6,9 @@
 body {
     font-family: 'Poppins';
 }
+* {
+    font-family: 'Poppins';
+}
 
 .container {
     width: 1110px;
@@ -51,6 +54,53 @@ body {
                 &:nth-child(1) {
                     margin-left:0;
                 }
+            }
+        }
+    }
+    &__main {
+        &-wrapper {
+            display: flex;
+            position: relative;
+            .header__main-block {
+                position: absolute;
+                z-index: 2;
+                top: 30%;
+                &-p {
+                    line-height: 27px;
+                    margin: 25px 0 42px 0;
+                    &--big-font {
+                        line-height: 79px;
+                        font-size: 54px;
+                        font-weight: 700;
+                    }
+                }
+                &-form {
+                    box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+                    border-radius: 29px;
+                    display: flex;
+                    width: fit-content;
+                    input,button {
+                        border-radius: 29px;
+                        border: none;
+                        padding: 16px 0;
+                        outline: none;
+                    }input {
+                        padding-left: 28px;
+                        &::placeholder {
+                            color: #BBBBBB;
+                        }
+                    }button {
+                        padding: 18px 37px;
+                        background-color: #F78434;
+                        color: white;
+                        font-weight: 700;
+                    }
+                    
+                }
+            }
+            .header__img-block {
+                position: relative;
+                left: 51.3%;
             }
         }
     }
