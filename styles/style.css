@@ -108,8 +108,25 @@ body {
 }
 
 .provide-info__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1420px;
+}
+.provide-info__img-wrapper {
+  width: 684px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(385px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(315px, auto));
+  grid-gap: 34px;
+  align-items: center;
+}
+.provide-info__popup h3 {
+  font-weight: 700;
+  line-height: 62px;
+}
+.provide-info__block-3 {
+  margin-left: 15%;
+  width: 374px;
 }
 
 /*# sourceMappingURL=style.css.map */
