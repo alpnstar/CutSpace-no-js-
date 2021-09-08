@@ -114,33 +114,79 @@ body {
     }
 }
 .provide-info {
+    p {
+        color: #323232;
+
+    }
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        max-width: 1420px   ;
+        max-width: 1420px;
     }
     &__img-wrapper {
-        width: 684px;
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(315px,auto));
-        grid-gap: 34px;
-        align-items: center;
+        grid-gap: 30px;
+        grid-template-columns: repeat(auto-fit,minmax(315px,auto)minmax(385px,auto));
+        grid-auto-rows: 550px;
+    }
+    &__block-1 {
+        background-image: url('../img/provide-block.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     &__block-2 {
-        
+        background-image: url('../img/provide-block2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     &__popup {
-        h3
-         {
+        display: inline-block;
+        position: relative;
+        top: 320px;
+        left: 194px;
+        padding: 32px 29px;
+        padding-left: 80px;
+        box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+        border-radius: 15px;
+        background-color: white;
+        &::before {
+            content: url('../img/popup.svg');
+            position: absolute;
+            left: 18px;
+            top: 40px;
+        }
+        h3 {
             font-weight: 700;
-            line-height: 62px;
+        }
+        p {
+            line-height: 27px;
         }
     }
     &__block-3 {
-        margin-left: 15%;
-        width: 374px;
+        margin-left: 20%;
+        max-width: 374px;
         &-wrapper {
+        }
+        h2 {
+            font-size: 42px;
+            line-height: 62px;
+            font-weight: 700;
+        }
+        p {
+            line-height: 27px;
+
+            margin-top: 20px;
+        }
+        button {
+            margin-top: 45px;
+
+            border: none;
+            font-weight: 700;
+            background-color: #F78434;
+            color: white;
+            padding: 19px 39px;
+            border-radius: 29px;
         }
     }
 }
