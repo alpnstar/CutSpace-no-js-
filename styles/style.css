@@ -178,4 +178,31 @@ body {
   border-radius: 29px;
 }
 
+.start-using {
+  margin: 144px 0;
+}
+.start-using__wrapper {
+  height: 464px;
+  padding-right: 200px;
+  background: url("../img/start-us-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.start-using__wrapper h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 62px;
+  color: white;
+}
+.start-using__wrapper p {
+  line-height: 27px;
+  color: white;
+}
+.start-using__content-wrapper {
+  width: 319px;
+}
+
 /*# sourceMappingURL=style.css.map */

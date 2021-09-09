@@ -190,3 +190,29 @@ body {
         }
     }
 }
+.start-using {
+    margin: 144px 0;
+    &__wrapper {
+        height: 464px;
+        padding-right: 200px;
+        background: url('../img/start-us-bg.png');
+        background-position:center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        h2{ 
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 62px;
+            color: white;
+        }
+        p {
+            line-height: 27px;
+            color: white;
+        }
+    }
+    &__content-wrapper {
+        width: 319px;
+    }
+}
