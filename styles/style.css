@@ -178,8 +178,15 @@ body {
   border-radius: 29px;
 }
 
+.background {
+  background: #F5F6FA;
+  margin: 385px 0 200px 0;
+  height: 621px;
+}
+
 .start-using {
-  margin: 144px 0;
+  position: relative;
+  bottom: 231px;
 }
 .start-using__wrapper {
   height: 464px;
@@ -203,6 +210,38 @@ body {
 }
 .start-using__content-wrapper {
   width: 319px;
+}
+
+.who-serve {
+  position: relative;
+  bottom: 25px;
+}
+.who-serve__block {
+  text-align: center;
+  padding: 39px 0;
+  border-radius: 10px;
+  background-color: orange;
+}
+.who-serve__block:nth-child(2) {
+  background: white;
+}
+.who-serve__blocks-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  grid-gap: 10px;
+}
+.who-serve__block h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 63px;
+}
+.who-serve__block p {
+  line-height: 27px;
+}
+.who-serve__block button {
+  padding: 18px 39px;
+  border: none;
+  border-radius: 29px;
 }
 
 /*# sourceMappingURL=style.css.map */

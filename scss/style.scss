@@ -190,8 +190,15 @@ body {
         }
     }
 }
+.background {
+    background: #F5F6FA;
+    margin: 385px 0 200px 0;
+    height: 621px;
+
+}
 .start-using {
-    margin: 144px 0;
+    position: relative;
+    bottom: 231px;
     &__wrapper {
         height: 464px;
         padding-right: 200px;
@@ -214,5 +221,41 @@ body {
     }
     &__content-wrapper {
         width: 319px;
+    }
+}
+.who-serve {
+    position: relative;
+    bottom: 25px;
+    &__wrapper {
+    }
+    &__block {
+        text-align: center;
+        padding: 39px 0;
+        border-radius: 10px;
+        background-color: orange;
+        &:nth-child(2) {
+            background: white;
+        }
+        &s-wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+            grid-gap: 10px;
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 63px;
+        }
+        p {
+            line-height: 27px;
+        }
+        img {
+            
+        }
+        button {
+            padding: 18px 39px;
+            border: none;
+            border-radius: 29px;
+        }
     }
 }
