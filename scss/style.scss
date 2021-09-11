@@ -225,8 +225,14 @@ body {
 }
 .who-serve {
     position: relative;
-    bottom: 25px;
+    bottom: 100px;
+    text-align: center;
     &__wrapper {
+        >h2 {
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 62px;
+        }
     }
     &__block {
         text-align: center;
@@ -237,6 +243,8 @@ body {
             background: white;
         }
         &s-wrapper {
+            margin-top: 30px;
+
             display: grid;
             grid-template-columns: repeat(auto-fit,minmax(280px,auto));
             grid-gap: 10px;
