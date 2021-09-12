@@ -218,7 +218,7 @@ body {
 
 .who-serve {
   position: relative;
-  bottom: 100px;
+  bottom: 128px;
   text-align: center;
 }
 .who-serve__wrapper > h2 {
@@ -263,6 +263,26 @@ body {
   padding: 18px 39px;
   border: none;
   border-radius: 29px;
+}
+
+.why-choose {
+  text-align: center;
+}
+.why-choose h2 {
+  font-size: 42px;
+  line-height: 62px;
+  font-weight: 700;
+}
+.why-choose__item-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(132px, auto));
+}
+
+@media screen and (max-width: 600px) {
+  .background {
+    height: auto;
+    margin-bottom: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

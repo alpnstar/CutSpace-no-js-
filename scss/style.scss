@@ -228,7 +228,7 @@ body {
 }
 .who-serve {
     position: relative;
-    bottom: 100px;
+    bottom: 128px;
     text-align: center;
     &__wrapper {
         >h2 {
@@ -278,5 +278,23 @@ body {
             border: none;
             border-radius: 29px;
         }
+    }
+}
+.why-choose {
+    text-align: center;
+    h2 {
+        font-size: 42px;
+        line-height: 62px;
+        font-weight: 700;
+    }
+    &__item-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(132px,auto));
+    }
+}
+@media screen and (max-width: 600px) {
+    .background {
+        height: auto;
+        margin-bottom: 20px;
     }
 }
