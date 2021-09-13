@@ -267,15 +267,51 @@ body {
 
 .why-choose {
   text-align: center;
+  margin-top: 230px;
 }
 .why-choose h2 {
   font-size: 42px;
   line-height: 62px;
   font-weight: 700;
+  margin-bottom: 58px;
+}
+.why-choose__item {
+  color: #323232;
+}
+.why-choose__item h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  margin-top: 15px;
+}
+.why-choose__item p {
+  line-height: 27px;
 }
 .why-choose__item-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(132px, auto));
+}
+
+.testimonial {
+  padding: 59px 0;
+}
+.testimonial__back-img {
+  max-width: 350px;
+  height: 204px;
+}
+.testimonial__back-img:first-child {
+  background: url("../img/testimonial1.png") no-repeat center/cover;
+}
+.testimonial__back-img:nth-child(2) {
+  background: url("../img/testimonial2.png") no-repeat center/cover;
+}
+.testimonial__back-img:last-child {
+  background: url("../img/testimonial3.png") no-repeat center/cover;
+}
+.testimonial__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+  grid-auto-rows: 425px;
 }
 
 @media screen and (max-width: 600px) {
