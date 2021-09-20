@@ -294,6 +294,30 @@ body {
 
 .testimonial {
   padding: 59px 0;
+  line-height: 27px;
+}
+.testimonial__item-content {
+  padding: 27px;
+}
+.testimonial p {
+  color: #606060;
+}
+.testimonial__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+}
+.testimonial__header h2 {
+  line-height: 62px;
+  font-size: 42px;
+  font-weight: 700;
+}
+.testimonial__header p {
+  color: #606060;
+}
+.testimonial h3 {
+  font-weight: 700;
 }
 .testimonial__back-img {
   max-width: 350px;
