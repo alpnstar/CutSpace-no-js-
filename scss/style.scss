@@ -315,6 +315,14 @@ body {
     &__item-content {
         padding: 27px;
     }
+    &__text {
+        &--orange {
+            color: #F78434;
+        }
+        &--blue {
+            color: #58BEBF;
+        }
+    }
     p {
         color: #606060;
     }
@@ -341,14 +349,25 @@ body {
     &__back-img {
         max-width: 350px;
         height: 204px;
-        &:first-child {
+        &-1 {
             background: url('../img/testimonial1.png') no-repeat center / cover;
+            span {
+                position: relative;
+                left: 80%;
+                top: 67%;
+            }
         }
-        &:nth-child(2) {
+        &-2 {
             background: url('../img/testimonial2.png') no-repeat center / cover;
         }
-        &:last-child {
+        &-3 {
             background: url('../img/testimonial3.png') no-repeat center / cover;
+            &::after {
+                content: url('../img/Design\ element\ testim.png');
+                position: relative;
+                left: 90%;
+                top: -20%;
+            }   
         }
     }
     &__header {
