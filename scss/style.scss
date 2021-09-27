@@ -379,6 +379,36 @@ body {
         grid-auto-rows: 425px;
     }
 }
+.experience {
+    color: white;
+    background: url('../img/back-exp.png') no-repeat  center / cover;
+    height: 600px;
+    &__content-wrapper {
+        max-width: 360px;
+        position: relative;
+        top: 244px;
+    }
+    &__wrapper {
+        height: 100%;
+        h2 {
+            font-size: 42px;
+            line-height: 62px;
+            font-weight: 700;
+        }
+        p {
+            line-height: 27px;
+            margin: 20px 0;
+        }
+        button {
+            padding: 18px 42px;
+            border: none;
+            border-radius: 27px;
+            font-weight: 700;
+            background-color: white;
+            color: black;
+        }
+    }
+}
 
 @media screen and (max-width: 600px) {
     .background {
